@@ -31,7 +31,7 @@ export const fetchPost = createAsyncThunk(
         if (response.data.status === "SUCCESS") {
             dispatch(postActions.resetContent());
         } else {
-            alert("Could not process your request at the moment");
+            // alert("Could not process your request at the moment");
         }
     }
 )
